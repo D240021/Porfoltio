@@ -3,6 +3,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -219,6 +220,7 @@ body {
     #optionsNav ul {
         font-size: 1.7rem;
         height: 2.7rem;
+        width: 80%;
     }
 }
 
