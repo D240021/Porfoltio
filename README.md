@@ -12,5 +12,5 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`.
 
 ## Servidor de desarrollo
 
-Introduce ng reserve en terminal para levantar el proyecto y dirigete a `http://localhost:4200/`.
+Introduce `ng serve` en terminal para levantar el proyecto y dirigete a `http://localhost:4200/`.
 
