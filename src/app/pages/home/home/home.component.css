@@ -1,45 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-body {
-    background-color: #090E16;
-    height: 100%;
-}
-
-#optionsNav {
-    display: flex;
-    justify-content: center;
-    font-family: "Raleway", sans-serif;
-    color: rgb(255, 255, 255, 50%);
-}
-
-#optionsNav ul {
-    margin-top: 1.5rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 50%;
-    list-style: none;
-    gap: 0 2.3rem;
-    background-color: rgba(123, 74, 226, 0.1);
-    border-radius: .5rem;
-    height: 2.3rem;
-    align-items: center;
-}
-
-#optionsNav a {
-    text-decoration: none;
-    color: inherit;
-}
-
-#optionsNav a:hover {
-    color: rgb(123, 74, 226);
-}
 
 #infoSection {
     display: flex;

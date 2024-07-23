@@ -1,0 +1,128 @@
+* {
+    font-family: "Raleway", sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem 0;
+    padding: 2%;
+}
+
+#projectSection {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-around;
+}
+
+h1 {
+    color: white;
+}
+
+mat-card {
+    width: 20%;
+    padding: 1%;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    cursor: pointer;
+    gap: 1rem;
+    background-color: #090E16;
+    border: rgba(123, 74, 226, 0.4) .15rem solid;
+    box-sizing: border-box; 
+    overflow: hidden; 
+}
+
+mat-card-header {
+    color: white;
+    text-align: center; 
+}
+
+mat-card-footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem 0;
+    align-items: center; 
+}
+
+mat-card-footer img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+mat-card-content {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: .9rem;
+    text-align: center;
+    word-wrap: break-word; 
+    overflow-wrap: break-word; 
+}
+
+#techDiv {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; 
+    text-align: center;
+    gap: 0.7rem;
+    justify-content: center;
+}
+
+#techDiv p {
+    background-color: rgba(123, 74, 226, 0.1);
+    color: rgb(123, 74, 226);
+    font-size: 0.85rem;
+    height: auto; 
+    border-radius: .5rem;
+    padding: 0.5rem; 
+    font-weight: bold;
+    white-space: pre-wrap;
+    text-align: center; 
+}
+
+/* Para pantallas más grandes */
+@media screen and (min-width: 1402px) {}
+
+/* Para tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px) {}
+
+/* Para teléfono */
+@media screen and (max-width:767px) {
+
+    mat-card {
+        width: 65%;
+    }
+
+    main {
+        text-align: center;
+    }
+
+    mat-card-content {
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 1.2rem;
+    }
+
+    #techDiv p {
+        font-size: 1.2rem;
+    }
+
+    #optionsNav ul {
+        font-size: 1.7rem;
+        height: 2.7rem;
+        width: 80%;
+    }
+
+    mat-card-header {
+        font-size: 1.8rem;
+    }
+
+    #techDiv p {
+        width: auto; 
+    }
+
+    mat-card-footer img {
+       display: none;
+    }
+
+}
