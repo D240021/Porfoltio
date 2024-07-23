@@ -24,7 +24,7 @@
         <section id="projectSection">
 
             <ng-container *ngFor="let project of myProjects.projects">
-                <mat-card appearance="outlined" (click)="navigateTo(project.url)">
+                <mat-card appearance="outlined">
                     <mat-card-header>
                         <h2>{{project.name}}</h2>
                     </mat-card-header>
@@ -38,6 +38,7 @@
                             <p *ngFor="let tech of project.technologies" >{{tech.name}}</p>
                         </div>
                         <img [src]="project.image" alt="project image">
+                        <button class="buttonsVisit" (click)="navigateTo(project.url)" >Go</button>
                     </mat-card-footer>
                 </mat-card>
 
