@@ -1,0 +1,81 @@
+
+
+main{
+    height: 100%;
+    font-family: "Raleway", sans-serif;
+}
+
+#aboutSection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+}
+
+#sectionPresentationPhoto {
+    width: 50%;
+    text-align: center;
+   
+}
+
+#sectionPresentationPhoto img {
+   border-radius: 50%;
+   width: 60%;
+}
+
+#infoArticle{
+    width: 50%;
+}
+
+#infoArticle h2{
+    color: white;
+    font-size: 3rem;
+}
+
+#infoArticle p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+}
+
+#emojiSection {
+    background-color: rgba(123, 74, 226, 0.1);
+    width: 20%;
+    text-align: center;
+    border-radius: .5rem;
+    padding: .7%;
+}
+
+#emojiSection p{
+    color: rgb(123, 74, 226);
+    font-size: 1.1rem;
+}
+
+#descriptionDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem 0;
+}
+
+#techSection{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    height: 20%;
+    gap: 7% 0;
+}
+
+#techImagesSection  {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0 2%;
+    height: auto;
+}
+
+#techImagesSection img {
+    width: 2rem;
+    height: 2rem;
+}
